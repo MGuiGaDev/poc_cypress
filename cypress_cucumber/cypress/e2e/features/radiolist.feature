@@ -7,3 +7,8 @@ Feature: Radio List
 
     Scenario: Radio Features
         Then I should see three radiobuttons
+        * Everyone is called 'radio'
+    
+    Scenario: Radio Selected
+        Given One of them selected 
+        Then the others are not selected

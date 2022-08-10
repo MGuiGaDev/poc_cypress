@@ -13,7 +13,7 @@
             "line": 6,
             "name": "I visit cypage",
             "result": {
-              "duration": 1810000000,
+              "duration": 1348000000,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,74 @@
             "line": 9,
             "name": "I should see three radiobuttons",
             "result": {
-              "duration": 228000000,
+              "duration": 80000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "* ",
+            "line": 10,
+            "name": "Everyone is called 'radio'",
+            "result": {
+              "duration": 206000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 5,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 6,
+            "name": "I visit cypage",
+            "result": {
+              "duration": 154000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "radio-list;radio-selected",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Radio Selected",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 13,
+            "name": "One of them selected",
+            "result": {
+              "duration": 142000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the others are not selected",
+            "result": {
+              "duration": 42000000,
               "status": "passed"
             },
             "match": {
