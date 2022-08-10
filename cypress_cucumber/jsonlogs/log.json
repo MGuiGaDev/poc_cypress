@@ -1,0 +1,55 @@
+[
+  {
+    "description": "    There is a list of radiobuttons made up of three elements \n    that is characterized in that we can only select one of them.",
+    "elements": [
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 5,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 6,
+            "name": "I visit cypage",
+            "result": {
+              "duration": 1810000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "radio-list;radio-features",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Radio Features",
+        "steps": [
+          {
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should see three radiobuttons",
+            "result": {
+              "duration": 228000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "radio-list",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Radio List",
+    "uri": "cypress\\e2e\\features\\radiolist.feature"
+  }
+]
