@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyPage</title>
+    <link rel="stylesheet" href="assets/css/index-style.css">
+</head>
+<body>
+    
+    <header>
+        <div>
+            <img src="./assets/resources/img/Cypress.png" alt="Logo transparente 'Cypres'">
+        </div>
+        <div>
+            <img src="./assets/resources/img/Cucumber.png" alt="Logo 'Cucumber'" class="cucumber__logo">
+        </div>
+    </header>
+
+    <main>
+        <!--
+<button type="menu" id="execute">
+Ejecutar CY
+</button>
+        -->
+        <section>
+            <h2 class="title__section">1. Capturando elementos y estados</h2>
+            <div>
+                <menu data-cy="radiolist">
+                    <li><input type="radio" name="radio" value="10"> Radio 1</li>
+                    <li><input type="radio" name="radio" value="20"> Radio 2</li>
+                    <li><input type="radio" name="radio" value="30"> Radio 3</li>
+                </menu>
+                <ul class="checks">
+                    <li><input type="checkbox" name="call" id="call" data-cy="call"> Todos</li>
+                    <li><input type="checkbox" name="cone" id="cone" data-cy="cone"> El primero</li>
+                    <li><input type="checkbox" name="ctwo" id="ctwo" data-cy="ctwo"> El segundo</li>
+                </ul>
+                <nav id="navegation">
+                    <ul id="options">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Me</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <section>
+            <h2 class="title__section">2. Capturando elementos y eventos</h2>
+            <div class="box" data-cy="box_one">
+                <div class="events__box">
+                    <button type="button" data-cy="execute">Ejecutar</button>
+                    <button type="button" data-cy="clear">Limpiar</button>
+                </div>
+                <div>
+                    <p>Resulado:</p>
+                    <div class="result__box" data-cy="result"></div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+    <!--
+
+<script type="module" src="./assets/js/index-actions.js"></script>
+    -->
+<script src="./assets/js/index-actions.js"></script>
+</body>
+</html>
